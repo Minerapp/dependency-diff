@@ -80,7 +80,7 @@ Diff.prototype.toCmdList = function () {
   return list
 }
 
-Diff.prototype.toObjectList = function () {
+Diff.prototype.toObject = function () {
   var obj = {
     dependencies: [],
     devDependencies: [],

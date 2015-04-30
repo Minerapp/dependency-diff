@@ -53,7 +53,7 @@ describe("Package Dependency Diff", function () {
         var diffObj = Diff()
                         .left(left)
                         .right(right)
-                        .toObjectList();
+                        .toObject();
         expect(diffObj).to.be.an('object')
         expect(diffObj)
           .to.have.property('dependencies')
