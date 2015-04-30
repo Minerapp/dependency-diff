@@ -67,7 +67,7 @@ Diff.prototype.cmdFromDiffObj = function (diffObj) {
 }
 
 Diff.prototype.toCmdList = function () {
-  var diffObj = this.validate().toObjectList()
+  var diffObj = this.validate().toObject()
 
   var list = []
 
