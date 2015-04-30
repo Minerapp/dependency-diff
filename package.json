@@ -1,7 +1,7 @@
 {
   "name": "dependency-diff",
-  "version": "1.0.0",
-  "description": "Generate Bash npm install commands from the diff of two package.json files",
+  "version": "1.0.1",
+  "description": "Generate npm install commands or objects from the diff of two package.json files",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/mocha/bin/_mocha tests --recursive --reporter=spec"
