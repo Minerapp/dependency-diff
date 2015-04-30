@@ -1,0 +1,19 @@
+{
+  "name": "dependency-diff",
+  "version": "1.0.0",
+  "description": "Generate Bash npm install commands from the diff of two package.json files",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/_mocha --recursive --reporter=spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Minerapp/dependency-diff.git"
+  },
+  "author": "miketheprogramer <michael.hernandez1988@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Minerapp/dependency-diff/issues"
+  },
+  "homepage": "https://github.com/Minerapp/dependency-diff"
+}
