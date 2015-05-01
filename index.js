@@ -41,7 +41,7 @@ Diff.prototype.validate = function () {
 }
 
 Diff.prototype.calculateDiff = function () {
-  return deepDiff(this._files.left, this._files.right)
+  return deepDiff(this._files.left, this._files.right) || []
 }
 
 Diff.prototype.kindToOp = function (kind) {
